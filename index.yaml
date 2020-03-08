@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  seafile:
+  - apiVersion: v1
+    appVersion: 7.0.5
+    created: "2020-03-08T16:26:06.265326271+01:00"
+    description: A Helm chart for Seafile Server
+    digest: a8b777e6583a132ef019c488bc690372ecf6a239d58f615a03490cd120a14389
+    name: seafile
+    urls:
+    - https://300481.github.io/charts/seafile-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-03-08T16:26:06.264472886+01:00"
