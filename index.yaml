@@ -3,7 +3,7 @@ entries:
   seafile:
   - apiVersion: v1
     appVersion: 7.1.5
-    created: "2021-04-22T21:25:43.589674474+02:00"
+    created: "2021-04-22T21:40:48.7485333+02:00"
     description: A Helm chart for Seafile Server
     digest: 56b7cbf41f70e21cbcc93494b1301d0011333167d6337c2b674a69e393417b66
     name: seafile
@@ -12,7 +12,7 @@ entries:
     version: 0.2.5
   - apiVersion: v1
     appVersion: 7.1.4
-    created: "2021-04-22T21:25:43.589108481+02:00"
+    created: "2021-04-22T21:40:48.74809793+02:00"
     description: A Helm chart for Seafile Server
     digest: bda3331e7f1270a8771165ebf3d5622df6da847fc47d82996a663f12f5ac810f
     name: seafile
@@ -21,7 +21,7 @@ entries:
     version: 0.2.4
   - apiVersion: v1
     appVersion: 7.1.4
-    created: "2021-04-22T21:25:43.588381433+02:00"
+    created: "2021-04-22T21:40:48.747659905+02:00"
     description: A Helm chart for Seafile Server
     digest: a69039ae14f6572c711cb31b4b84b8e1bc86c8c32be596603373b1fbf62bfc42
     name: seafile
@@ -30,7 +30,7 @@ entries:
     version: 0.2.3
   - apiVersion: v1
     appVersion: 7.1.4
-    created: "2021-04-22T21:25:43.587958176+02:00"
+    created: "2021-04-22T21:40:48.747158169+02:00"
     description: A Helm chart for Seafile Server
     digest: cdd597f3ee445be60122beb2be986a4e10508d16a954a8a88dea52eaad0eb9ea
     name: seafile
@@ -39,7 +39,7 @@ entries:
     version: 0.2.2
   - apiVersion: v1
     appVersion: 7.0.5
-    created: "2021-04-22T21:25:43.587519481+02:00"
+    created: "2021-04-22T21:40:48.746523806+02:00"
     description: A Helm chart for Seafile Server
     digest: f1b8787bbd66c8473cff0fb0e7dde997cc9549ac24db9d437af85c6d51f2c219
     name: seafile
@@ -48,7 +48,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: 7.0.5
-    created: "2021-04-22T21:25:43.587048735+02:00"
+    created: "2021-04-22T21:40:48.746062045+02:00"
     description: A Helm chart for Seafile Server
     digest: f84700084a4744a7a70c03890389f346f0126f78d16f5776d664379f8ca0fa93
     name: seafile
@@ -57,7 +57,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 7.0.5
-    created: "2021-04-22T21:25:43.586580999+02:00"
+    created: "2021-04-22T21:40:48.745644932+02:00"
     description: A Helm chart for Seafile Server
     digest: 4bb9b29252ea6e0260a4b2b9292c25b854a306f28f29f6a3e1c3d9444a74fae3
     name: seafile
@@ -66,7 +66,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: 7.0.5
-    created: "2021-04-22T21:25:43.586147643+02:00"
+    created: "2021-04-22T21:40:48.745207668+02:00"
     description: A Helm chart for Seafile Server
     digest: a8b777e6583a132ef019c488bc690372ecf6a239d58f615a03490cd120a14389
     name: seafile
@@ -76,12 +76,24 @@ entries:
   shield:
   - apiVersion: v2
     appVersion: 0.1.5
-    created: "2021-04-22T21:25:43.590243477+02:00"
-    description: Helm Chart for shield
-    digest: e214503bc12fed00c2e8e292278410a8be9f7779f12587a07aff56d4a0070cbc
+    created: "2021-04-22T21:40:48.748973459+02:00"
+    description: shield makes the underlying host "magically" disappear during network attacks.
+    digest: 4598e641ca1c48f966173da39e87536df0e6bd322c706a32cfe43371c589088e
+    home: https://github.com/300481/shield
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    keywords:
+    - iptables
+    - firewall
+    - container
+    - security
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: "300481"
     name: shield
+    sources:
+    - https://github.com/300481/shield
     type: application
     urls:
     - https://300481.github.io/charts/shield-0.1.5.tgz
     version: 0.1.5
-generated: "2021-04-22T21:25:43.585527395+02:00"
+generated: "2021-04-22T21:40:48.744612894+02:00"
