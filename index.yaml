@@ -2,6 +2,9 @@ apiVersion: v1
 entries:
   seafile:
   - annotations:
+      artifacthub.io/changes: |
+        - Updated Seafile to v8.0.4
+        - Updated MariaDB to v10.5
       artifacthub.io/images: |
         - name: Seafile
           image: 300481/seafile:8.0.4
@@ -14,9 +17,9 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 8.0.4
-    created: "2021-05-11T14:31:48.16960913+02:00"
+    created: "2021-05-11T14:38:52.716517319+02:00"
     description: Seafile Server, Reliable and Performant File Sync and Share Solution on Kubernetes
-    digest: 74fda65b8da745858e3a3abc893932d26df1f7cc20dbd55eaf53ec9e6695ee23
+    digest: 83db36d5154adab762d5fc954b58c1a8ff7e61aae9b8544da864fda7f85e0a12
     home: https://github.com/300481/seafile-server
     keywords:
     - cloud
@@ -35,7 +38,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: 7.1.5
-    created: "2021-05-11T14:31:48.16905995+02:00"
+    created: "2021-05-11T14:38:52.715970128+02:00"
     description: A Helm chart for Seafile Server
     digest: 56b7cbf41f70e21cbcc93494b1301d0011333167d6337c2b674a69e393417b66
     name: seafile
@@ -44,7 +47,7 @@ entries:
     version: 0.2.5
   - apiVersion: v1
     appVersion: 7.1.4
-    created: "2021-05-11T14:31:48.168269746+02:00"
+    created: "2021-05-11T14:38:52.715581275+02:00"
     description: A Helm chart for Seafile Server
     digest: bda3331e7f1270a8771165ebf3d5622df6da847fc47d82996a663f12f5ac810f
     name: seafile
@@ -53,7 +56,7 @@ entries:
     version: 0.2.4
   - apiVersion: v1
     appVersion: 7.1.4
-    created: "2021-05-11T14:31:48.167884097+02:00"
+    created: "2021-05-11T14:38:52.715151245+02:00"
     description: A Helm chart for Seafile Server
     digest: a69039ae14f6572c711cb31b4b84b8e1bc86c8c32be596603373b1fbf62bfc42
     name: seafile
@@ -62,7 +65,7 @@ entries:
     version: 0.2.3
   - apiVersion: v1
     appVersion: 7.1.4
-    created: "2021-05-11T14:31:48.167490066+02:00"
+    created: "2021-05-11T14:38:52.714732124+02:00"
     description: A Helm chart for Seafile Server
     digest: cdd597f3ee445be60122beb2be986a4e10508d16a954a8a88dea52eaad0eb9ea
     name: seafile
@@ -71,7 +74,7 @@ entries:
     version: 0.2.2
   - apiVersion: v1
     appVersion: 7.0.5
-    created: "2021-05-11T14:31:48.167088303+02:00"
+    created: "2021-05-11T14:38:52.714344885+02:00"
     description: A Helm chart for Seafile Server
     digest: f1b8787bbd66c8473cff0fb0e7dde997cc9549ac24db9d437af85c6d51f2c219
     name: seafile
@@ -80,7 +83,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: 7.0.5
-    created: "2021-05-11T14:31:48.166663426+02:00"
+    created: "2021-05-11T14:38:52.713875498+02:00"
     description: A Helm chart for Seafile Server
     digest: f84700084a4744a7a70c03890389f346f0126f78d16f5776d664379f8ca0fa93
     name: seafile
@@ -89,7 +92,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 7.0.5
-    created: "2021-05-11T14:31:48.16623474+02:00"
+    created: "2021-05-11T14:38:52.712767477+02:00"
     description: A Helm chart for Seafile Server
     digest: 4bb9b29252ea6e0260a4b2b9292c25b854a306f28f29f6a3e1c3d9444a74fae3
     name: seafile
@@ -98,7 +101,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: 7.0.5
-    created: "2021-05-11T14:31:48.16574094+02:00"
+    created: "2021-05-11T14:38:52.711819928+02:00"
     description: A Helm chart for Seafile Server
     digest: a8b777e6583a132ef019c488bc690372ecf6a239d58f615a03490cd120a14389
     name: seafile
@@ -115,7 +118,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 0.2.1
-    created: "2021-05-11T14:31:48.170799485+02:00"
+    created: "2021-05-11T14:38:52.71765719+02:00"
     description: shield makes the underlying host "magically" disappear during network attacks.
     digest: 041b38f69b5fb007f9d1a4c3426140a12a6e27bacba688d05768db83a70b798d
     home: https://github.com/300481/shield
@@ -136,7 +139,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2021-05-11T14:31:48.170397207+02:00"
+    created: "2021-05-11T14:38:52.717267084+02:00"
     description: shield makes the underlying host "magically" disappear during network attacks.
     digest: 54477f04247b2a609c4ee873a4f9036de44b583b6e15161e617d6ec9c395851f
     home: https://github.com/300481/shield
@@ -157,7 +160,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.5
-    created: "2021-05-11T14:31:48.170008976+02:00"
+    created: "2021-05-11T14:38:52.71690502+02:00"
     description: shield makes the underlying host "magically" disappear during network attacks.
     digest: bac5b2e0953dca3f24f03de6c7f242cff5c375add701cf458a7f690fa359a5bd
     home: https://github.com/300481/shield
@@ -176,4 +179,4 @@ entries:
     urls:
     - https://300481.github.io/charts/shield-0.1.5.tgz
     version: 0.1.5
-generated: "2021-05-11T14:31:48.163905491+02:00"
+generated: "2021-05-11T14:38:52.711238047+02:00"
