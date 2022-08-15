@@ -12,7 +12,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 8.0.5
-    created: "2022-08-12T23:55:38.111301625+02:00"
+    created: "2022-08-15T21:40:01.175708606+02:00"
     dependencies:
     - name: mariadb
       repository: https://charts.bitnami.com/bitnami
@@ -55,7 +55,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 8.0.5
-    created: "2022-08-12T23:55:38.107873193+02:00"
+    created: "2022-08-15T21:40:01.17178255+02:00"
     description: Seafile Server, Reliable and Performant File Sync and Share Solution
       on Kubernetes
     digest: e45c67684f8f8f701a3196d78f6018c4eaaf7ee3ba8e89189db572965f7bf1ec
@@ -90,7 +90,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 8.0.5
-    created: "2022-08-12T23:55:38.107512587+02:00"
+    created: "2022-08-15T21:40:01.170722701+02:00"
     description: Seafile Server, Reliable and Performant File Sync and Share Solution
       on Kubernetes
     digest: 75c1bc792aa459d4653d70efd0696ebbb3eaf97bb60113891ef9a12f23d80540
@@ -125,7 +125,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 8.0.4
-    created: "2022-08-12T23:55:38.106751416+02:00"
+    created: "2022-08-15T21:40:01.169670614+02:00"
     description: Seafile Server, Reliable and Performant File Sync and Share Solution
       on Kubernetes
     digest: 0b5322aba7aa9602550e558ccc18ea6d423bacba4a50cc8b14b89fd787b48754
@@ -160,7 +160,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 8.0.4
-    created: "2022-08-12T23:55:38.106418304+02:00"
+    created: "2022-08-15T21:40:01.169018151+02:00"
     description: Seafile Server, Reliable and Performant File Sync and Share Solution
       on Kubernetes
     digest: 07e27aeb351c620da127afe77be0d2348ce6d19eb237894d9fe330d87725da61
@@ -195,7 +195,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 8.0.4
-    created: "2022-08-12T23:55:38.106101+02:00"
+    created: "2022-08-15T21:40:01.168453391+02:00"
     description: Seafile Server, Reliable and Performant File Sync and Share Solution
       on Kubernetes
     digest: f841a34fa61d2191f528953deb104a772f867e4f44149f13d34b007eb326b0d6
@@ -231,7 +231,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 8.0.4
-    created: "2022-08-12T23:55:38.105782489+02:00"
+    created: "2022-08-15T21:40:01.167946075+02:00"
     description: Seafile Server, Reliable and Performant File Sync and Share Solution
       on Kubernetes
     digest: 83db36d5154adab762d5fc954b58c1a8ff7e61aae9b8544da864fda7f85e0a12
@@ -253,7 +253,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: 7.1.5
-    created: "2022-08-12T23:55:38.105399375+02:00"
+    created: "2022-08-15T21:40:01.167451908+02:00"
     description: A Helm chart for Seafile Server
     digest: 56b7cbf41f70e21cbcc93494b1301d0011333167d6337c2b674a69e393417b66
     name: seafile
@@ -262,7 +262,7 @@ entries:
     version: 0.2.5
   - apiVersion: v1
     appVersion: 7.1.4
-    created: "2022-08-12T23:55:38.105158202+02:00"
+    created: "2022-08-15T21:40:01.167087776+02:00"
     description: A Helm chart for Seafile Server
     digest: bda3331e7f1270a8771165ebf3d5622df6da847fc47d82996a663f12f5ac810f
     name: seafile
@@ -271,7 +271,7 @@ entries:
     version: 0.2.4
   - apiVersion: v1
     appVersion: 7.1.4
-    created: "2022-08-12T23:55:38.10493028+02:00"
+    created: "2022-08-15T21:40:01.166752782+02:00"
     description: A Helm chart for Seafile Server
     digest: a69039ae14f6572c711cb31b4b84b8e1bc86c8c32be596603373b1fbf62bfc42
     name: seafile
@@ -280,7 +280,7 @@ entries:
     version: 0.2.3
   - apiVersion: v1
     appVersion: 7.1.4
-    created: "2022-08-12T23:55:38.104694203+02:00"
+    created: "2022-08-15T21:40:01.166379402+02:00"
     description: A Helm chart for Seafile Server
     digest: cdd597f3ee445be60122beb2be986a4e10508d16a954a8a88dea52eaad0eb9ea
     name: seafile
@@ -289,7 +289,7 @@ entries:
     version: 0.2.2
   - apiVersion: v1
     appVersion: 7.0.5
-    created: "2022-08-12T23:55:38.104401827+02:00"
+    created: "2022-08-15T21:40:01.165936963+02:00"
     description: A Helm chart for Seafile Server
     digest: f1b8787bbd66c8473cff0fb0e7dde997cc9549ac24db9d437af85c6d51f2c219
     name: seafile
@@ -298,7 +298,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: 7.0.5
-    created: "2022-08-12T23:55:38.104143364+02:00"
+    created: "2022-08-15T21:40:01.165300255+02:00"
     description: A Helm chart for Seafile Server
     digest: f84700084a4744a7a70c03890389f346f0126f78d16f5776d664379f8ca0fa93
     name: seafile
@@ -307,7 +307,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 7.0.5
-    created: "2022-08-12T23:55:38.103837136+02:00"
+    created: "2022-08-15T21:40:01.164694574+02:00"
     description: A Helm chart for Seafile Server
     digest: 4bb9b29252ea6e0260a4b2b9292c25b854a306f28f29f6a3e1c3d9444a74fae3
     name: seafile
@@ -316,7 +316,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: 7.0.5
-    created: "2022-08-12T23:55:38.103541883+02:00"
+    created: "2022-08-15T21:40:01.164036464+02:00"
     description: A Helm chart for Seafile Server
     digest: a8b777e6583a132ef019c488bc690372ecf6a239d58f615a03490cd120a14389
     name: seafile
@@ -327,13 +327,43 @@ entries:
   - annotations:
       artifacthub.io/images: |
         - name: shield
+          image: 300481/shield:0.3.1
+      artifacthub.io/maintainers: |-
+        - name: 300481
+          email: 300481@300481.de
+    apiVersion: v2
+    appVersion: 0.3.1
+    created: "2022-08-15T21:40:01.178139707+02:00"
+    description: shield makes the underlying host "magically" disappear during network
+      attacks.
+    digest: d149c76698291c444b6d5f7585c047755264cb7b0f705c85a03011ed40d68614
+    home: https://github.com/300481/shield
+    keywords:
+    - iptables
+    - ip6tables
+    - firewall
+    - container
+    - security
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - name: "300481"
+    name: shield
+    sources:
+    - https://github.com/300481/shield
+    type: application
+    urls:
+    - https://300481.github.io/charts/shield-0.3.1.tgz
+    version: 0.3.1
+  - annotations:
+      artifacthub.io/images: |
+        - name: shield
           image: 300481/shield:0.3.0
       artifacthub.io/maintainers: |-
         - name: 300481
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 0.3.0
-    created: "2022-08-12T23:55:38.112697572+02:00"
+    created: "2022-08-15T21:40:01.177235907+02:00"
     description: shield makes the underlying host "magically" disappear during network
       attacks.
     digest: 1636cce4ee07defd03efff3e5e4fa5fce445afba57e91ec84c9fb9f84eed0e45
@@ -363,7 +393,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 0.2.1
-    created: "2022-08-12T23:55:38.112031229+02:00"
+    created: "2022-08-15T21:40:01.176853557+02:00"
     description: shield makes the underlying host "magically" disappear during network
       attacks.
     digest: 041b38f69b5fb007f9d1a4c3426140a12a6e27bacba688d05768db83a70b798d
@@ -385,7 +415,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2022-08-12T23:55:38.111805666+02:00"
+    created: "2022-08-15T21:40:01.176450839+02:00"
     description: shield makes the underlying host "magically" disappear during network
       attacks.
     digest: 54477f04247b2a609c4ee873a4f9036de44b583b6e15161e617d6ec9c395851f
@@ -407,7 +437,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.5
-    created: "2022-08-12T23:55:38.111544274+02:00"
+    created: "2022-08-15T21:40:01.176076801+02:00"
     description: shield makes the underlying host "magically" disappear during network
       attacks.
     digest: bac5b2e0953dca3f24f03de6c7f242cff5c375add701cf458a7f690fa359a5bd
@@ -427,4 +457,4 @@ entries:
     urls:
     - https://300481.github.io/charts/shield-0.1.5.tgz
     version: 0.1.5
-generated: "2022-08-12T23:55:38.103122778+02:00"
+generated: "2022-08-15T21:40:01.148830227+02:00"
