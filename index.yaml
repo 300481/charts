@@ -3,6 +3,38 @@ entries:
   seafile:
   - annotations:
       artifacthub.io/changes: |
+        - Update to Seafile 11.0.12
+      artifacthub.io/images: |
+        - name: Seafile
+          image: docker.io/seafileltd/seafile-mc:11.0.12
+      artifacthub.io/maintainers: |
+        - name: 300481
+          email: 300481@300481.de
+    apiVersion: v2
+    appVersion: 11.0.12
+    created: "2024-09-26T21:50:28.834218027+02:00"
+    description: Seafile Server, Reliable and Performant File Sync and Share Solution
+      on Kubernetes
+    digest: 2116f2cf40612f778863e59fc04b3695f2c49edf667c4c5e0fca82df8d615737
+    home: https://github.com/300481/seafile-server
+    icon: https://www.seafile.com/media/img/seafile-logo.png
+    keywords:
+    - cloud
+    - file
+    - share
+    - sync
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: "300481"
+    name: seafile
+    sources:
+    - https://github.com/300481/seafile-server
+    type: application
+    urls:
+    - https://300481.github.io/charts/seafile-0.12.1.tgz
+    version: 0.12.1
+  - annotations:
+      artifacthub.io/changes: |
         - add optional nodeSelector
         - "add helm.sh/resource-policy: keep for PVC"
       artifacthub.io/images: |
@@ -13,7 +45,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 11.0.3
-    created: "2024-04-26T23:51:20.492141923+02:00"
+    created: "2024-09-26T21:50:28.833549948+02:00"
     description: Seafile Server, Reliable and Performant File Sync and Share Solution
       on Kubernetes
     digest: fe74ea0584fffa72ee5ded103a863504253d8c253f753f1759d16a04e6ccb32c
@@ -45,7 +77,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 11.0.3
-    created: "2024-04-26T23:51:20.491478685+02:00"
+    created: "2024-09-26T21:50:28.83262787+02:00"
     description: Seafile Server, Reliable and Performant File Sync and Share Solution
       on Kubernetes
     digest: bee702fe3df746fb428371b8afd6a2172392282456d9983e5208f1d8557e1de6
@@ -77,7 +109,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 11.0.3
-    created: "2024-04-26T23:51:20.490841055+02:00"
+    created: "2024-09-26T21:50:28.831679875+02:00"
     description: Seafile Server, Reliable and Performant File Sync and Share Solution
       on Kubernetes
     digest: 57a5c229a94e0f1ef8776a133a1d8e6c7768054b6d44669605ac1009ddee9213
@@ -109,7 +141,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 11.0.2
-    created: "2024-04-26T23:51:20.490232147+02:00"
+    created: "2024-09-26T21:50:28.830727475+02:00"
     description: Seafile Server, Reliable and Performant File Sync and Share Solution
       on Kubernetes
     digest: 26809e2d5cdf38ede3dbe619e1c1aad393e52b2e2feb9937a9d5cea36da24cc5
@@ -141,7 +173,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 11.0.1
-    created: "2024-04-26T23:51:20.489589152+02:00"
+    created: "2024-09-26T21:50:28.829728678+02:00"
     description: Seafile Server, Reliable and Performant File Sync and Share Solution
       on Kubernetes
     digest: 0ba0d4cf8933e4582bc485f3edae0653c437f0b5be0da09323a242f46096455d
@@ -173,7 +205,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 10.0.1
-    created: "2024-04-26T23:51:20.488883458+02:00"
+    created: "2024-09-26T21:50:28.828460726+02:00"
     description: Seafile Server, Reliable and Performant File Sync and Share Solution
       on Kubernetes
     digest: 424497524e85c5f463531781db097ad1ebe161e592e25ddc439e562b771973b3
@@ -205,7 +237,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 9.0.10
-    created: "2024-04-26T23:51:20.599789812+02:00"
+    created: "2024-09-26T21:50:28.952209392+02:00"
     description: Seafile Server, Reliable and Performant File Sync and Share Solution
       on Kubernetes
     digest: 955522c7b027c9d725569f15a866a6ee4cd34ad082802791eaef0dbea04aef13
@@ -237,7 +269,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 9.0.9
-    created: "2024-04-26T23:51:20.599194898+02:00"
+    created: "2024-09-26T21:50:28.951445907+02:00"
     description: Seafile Server, Reliable and Performant File Sync and Share Solution
       on Kubernetes
     digest: 73d613b4125aee417ba72b807ed1d24019d47f872855d176f7e886b126bd36eb
@@ -269,7 +301,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 9.0.8
-    created: "2024-04-26T23:51:20.59859443+02:00"
+    created: "2024-09-26T21:50:28.950507861+02:00"
     description: Seafile Server, Reliable and Performant File Sync and Share Solution
       on Kubernetes
     digest: 2bc3de887bd3d8f26c420e9aa943b63de89c4c5b0199010700853041dd747d1f
@@ -301,7 +333,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 9.0.7
-    created: "2024-04-26T23:51:20.597995586+02:00"
+    created: "2024-09-26T21:50:28.948870526+02:00"
     description: Seafile Server, Reliable and Performant File Sync and Share Solution
       on Kubernetes
     digest: 83109a9ad2eb70a844000ea7c7195d11c4eef5b1b4596f60f7a55b8d63a7a889
@@ -333,7 +365,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 9.0.6
-    created: "2024-04-26T23:51:20.5973966+02:00"
+    created: "2024-09-26T21:50:28.948036872+02:00"
     description: Seafile Server, Reliable and Performant File Sync and Share Solution
       on Kubernetes
     digest: b677cb96ce966004087f89d6f652343ab4b0f766a72d05911d6bc866e692d1ce
@@ -365,7 +397,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 9.0.5
-    created: "2024-04-26T23:51:20.596802774+02:00"
+    created: "2024-09-26T21:50:28.947201736+02:00"
     description: Seafile Server, Reliable and Performant File Sync and Share Solution
       on Kubernetes
     digest: 9c9844235b52224946d7493059ccfaa7b0b89cac665b167ff7001340d5fb8f32
@@ -397,7 +429,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 9.0.4
-    created: "2024-04-26T23:51:20.596215832+02:00"
+    created: "2024-09-26T21:50:28.946341074+02:00"
     description: Seafile Server, Reliable and Performant File Sync and Share Solution
       on Kubernetes
     digest: fb452d904b7ed218b1c84e69085b8f9196b9b6f96d73b44448eb0a6cec087a6f
@@ -429,7 +461,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 9.0.3
-    created: "2024-04-26T23:51:20.595593583+02:00"
+    created: "2024-09-26T21:50:28.945355353+02:00"
     description: Seafile Server, Reliable and Performant File Sync and Share Solution
       on Kubernetes
     digest: 4c57b6cc8ed61f86b71f4d1783f9adf049b17a5cebc04001fd45c82468dbda51
@@ -461,7 +493,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 9.0.2
-    created: "2024-04-26T23:51:20.59493933+02:00"
+    created: "2024-09-26T21:50:28.944242146+02:00"
     description: Seafile Server, Reliable and Performant File Sync and Share Solution
       on Kubernetes
     digest: fdd56a5032d8ee13459443f5bc0d830dc25e9c7bc5c861e9f0730c2adc3d2dae
@@ -493,7 +525,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 8.0.8
-    created: "2024-04-26T23:51:20.594180782+02:00"
+    created: "2024-09-26T21:50:28.943397487+02:00"
     description: Seafile Server, Reliable and Performant File Sync and Share Solution
       on Kubernetes
     digest: 1881b4b439e6e28a682bde47a0f471eac1b32ee53bfd107b99df1dc5ec258e50
@@ -525,7 +557,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 8.0.8
-    created: "2024-04-26T23:51:20.593472391+02:00"
+    created: "2024-09-26T21:50:28.942499392+02:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -566,7 +598,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 8.0.8
-    created: "2024-04-26T23:51:20.586655665+02:00"
+    created: "2024-09-26T21:50:28.935679258+02:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -607,7 +639,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 8.0.8
-    created: "2024-04-26T23:51:20.578886633+02:00"
+    created: "2024-09-26T21:50:28.927746705+02:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -648,7 +680,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 8.0.8
-    created: "2024-04-26T23:51:20.57216312+02:00"
+    created: "2024-09-26T21:50:28.920921069+02:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -689,7 +721,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 8.0.8
-    created: "2024-04-26T23:51:20.564396817+02:00"
+    created: "2024-09-26T21:50:28.913030352+02:00"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -730,7 +762,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 8.0.8
-    created: "2024-04-26T23:51:20.558190872+02:00"
+    created: "2024-09-26T21:50:28.906146355+02:00"
     dependencies:
     - name: mariadb
       repository: https://charts.bitnami.com/bitnami
@@ -770,7 +802,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 8.0.8
-    created: "2024-04-26T23:51:20.551895101+02:00"
+    created: "2024-09-26T21:50:28.899061507+02:00"
     dependencies:
     - name: mariadb
       repository: https://charts.bitnami.com/bitnami
@@ -810,7 +842,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 8.0.8
-    created: "2024-04-26T23:51:20.544001523+02:00"
+    created: "2024-09-26T21:50:28.890942958+02:00"
     dependencies:
     - name: mariadb
       repository: https://charts.bitnami.com/bitnami
@@ -850,7 +882,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 8.0.8
-    created: "2024-04-26T23:51:20.537100169+02:00"
+    created: "2024-09-26T21:50:28.883984635+02:00"
     dependencies:
     - name: mariadb
       repository: https://charts.bitnami.com/bitnami
@@ -890,7 +922,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 8.0.8
-    created: "2024-04-26T23:51:20.528804532+02:00"
+    created: "2024-09-26T21:50:28.875864792+02:00"
     dependencies:
     - name: mariadb
       repository: https://charts.bitnami.com/bitnami
@@ -930,7 +962,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 8.0.5
-    created: "2024-04-26T23:51:20.52228849+02:00"
+    created: "2024-09-26T21:50:28.868845688+02:00"
     dependencies:
     - name: mariadb
       repository: https://charts.bitnami.com/bitnami
@@ -970,7 +1002,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 8.0.5
-    created: "2024-04-26T23:51:20.514399438+02:00"
+    created: "2024-09-26T21:50:28.860877007+02:00"
     dependencies:
     - name: mariadb
       repository: https://charts.bitnami.com/bitnami
@@ -1009,7 +1041,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 8.0.5
-    created: "2024-04-26T23:51:20.507715953+02:00"
+    created: "2024-09-26T21:50:28.853535962+02:00"
     dependencies:
     - name: mariadb
       repository: https://charts.bitnami.com/bitnami
@@ -1052,7 +1084,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 8.0.5
-    created: "2024-04-26T23:51:20.499294486+02:00"
+    created: "2024-09-26T21:50:28.845862898+02:00"
     description: Seafile Server, Reliable and Performant File Sync and Share Solution
       on Kubernetes
     digest: e45c67684f8f8f701a3196d78f6018c4eaaf7ee3ba8e89189db572965f7bf1ec
@@ -1087,7 +1119,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 8.0.5
-    created: "2024-04-26T23:51:20.498579402+02:00"
+    created: "2024-09-26T21:50:28.843680987+02:00"
     description: Seafile Server, Reliable and Performant File Sync and Share Solution
       on Kubernetes
     digest: 75c1bc792aa459d4653d70efd0696ebbb3eaf97bb60113891ef9a12f23d80540
@@ -1122,7 +1154,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 8.0.4
-    created: "2024-04-26T23:51:20.497868482+02:00"
+    created: "2024-09-26T21:50:28.842665226+02:00"
     description: Seafile Server, Reliable and Performant File Sync and Share Solution
       on Kubernetes
     digest: 0b5322aba7aa9602550e558ccc18ea6d423bacba4a50cc8b14b89fd787b48754
@@ -1157,7 +1189,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 8.0.4
-    created: "2024-04-26T23:51:20.497207177+02:00"
+    created: "2024-09-26T21:50:28.841467835+02:00"
     description: Seafile Server, Reliable and Performant File Sync and Share Solution
       on Kubernetes
     digest: 07e27aeb351c620da127afe77be0d2348ce6d19eb237894d9fe330d87725da61
@@ -1192,7 +1224,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 8.0.4
-    created: "2024-04-26T23:51:20.496546663+02:00"
+    created: "2024-09-26T21:50:28.840321874+02:00"
     description: Seafile Server, Reliable and Performant File Sync and Share Solution
       on Kubernetes
     digest: f841a34fa61d2191f528953deb104a772f867e4f44149f13d34b007eb326b0d6
@@ -1228,7 +1260,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 8.0.4
-    created: "2024-04-26T23:51:20.495901238+02:00"
+    created: "2024-09-26T21:50:28.83942588+02:00"
     description: Seafile Server, Reliable and Performant File Sync and Share Solution
       on Kubernetes
     digest: 83db36d5154adab762d5fc954b58c1a8ff7e61aae9b8544da864fda7f85e0a12
@@ -1250,7 +1282,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: 7.1.5
-    created: "2024-04-26T23:51:20.495260214+02:00"
+    created: "2024-09-26T21:50:28.838561349+02:00"
     description: A Helm chart for Seafile Server
     digest: 56b7cbf41f70e21cbcc93494b1301d0011333167d6337c2b674a69e393417b66
     name: seafile
@@ -1259,7 +1291,7 @@ entries:
     version: 0.2.5
   - apiVersion: v1
     appVersion: 7.1.4
-    created: "2024-04-26T23:51:20.494754792+02:00"
+    created: "2024-09-26T21:50:28.83784929+02:00"
     description: A Helm chart for Seafile Server
     digest: bda3331e7f1270a8771165ebf3d5622df6da847fc47d82996a663f12f5ac810f
     name: seafile
@@ -1268,7 +1300,7 @@ entries:
     version: 0.2.4
   - apiVersion: v1
     appVersion: 7.1.4
-    created: "2024-04-26T23:51:20.494268902+02:00"
+    created: "2024-09-26T21:50:28.837105429+02:00"
     description: A Helm chart for Seafile Server
     digest: a69039ae14f6572c711cb31b4b84b8e1bc86c8c32be596603373b1fbf62bfc42
     name: seafile
@@ -1277,7 +1309,7 @@ entries:
     version: 0.2.3
   - apiVersion: v1
     appVersion: 7.1.4
-    created: "2024-04-26T23:51:20.493779583+02:00"
+    created: "2024-09-26T21:50:28.836386071+02:00"
     description: A Helm chart for Seafile Server
     digest: cdd597f3ee445be60122beb2be986a4e10508d16a954a8a88dea52eaad0eb9ea
     name: seafile
@@ -1286,7 +1318,7 @@ entries:
     version: 0.2.2
   - apiVersion: v1
     appVersion: 7.0.5
-    created: "2024-04-26T23:51:20.493265331+02:00"
+    created: "2024-09-26T21:50:28.835684927+02:00"
     description: A Helm chart for Seafile Server
     digest: f1b8787bbd66c8473cff0fb0e7dde997cc9549ac24db9d437af85c6d51f2c219
     name: seafile
@@ -1295,7 +1327,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: 7.0.5
-    created: "2024-04-26T23:51:20.492682981+02:00"
+    created: "2024-09-26T21:50:28.834966713+02:00"
     description: A Helm chart for Seafile Server
     digest: f84700084a4744a7a70c03890389f346f0126f78d16f5776d664379f8ca0fa93
     name: seafile
@@ -1304,7 +1336,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 7.0.5
-    created: "2024-04-26T23:51:20.488158915+02:00"
+    created: "2024-09-26T21:50:28.827197964+02:00"
     description: A Helm chart for Seafile Server
     digest: 4bb9b29252ea6e0260a4b2b9292c25b854a306f28f29f6a3e1c3d9444a74fae3
     name: seafile
@@ -1313,7 +1345,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: 7.0.5
-    created: "2024-04-26T23:51:20.4875964+02:00"
+    created: "2024-09-26T21:50:28.826084496+02:00"
     description: A Helm chart for Seafile Server
     digest: a8b777e6583a132ef019c488bc690372ecf6a239d58f615a03490cd120a14389
     name: seafile
@@ -1330,7 +1362,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 0.3.1
-    created: "2024-04-26T23:51:20.603131806+02:00"
+    created: "2024-09-26T21:50:28.955535197+02:00"
     description: shield makes the underlying host "magically" disappear during network
       attacks.
     digest: d149c76698291c444b6d5f7585c047755264cb7b0f705c85a03011ed40d68614
@@ -1360,7 +1392,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 0.3.0
-    created: "2024-04-26T23:51:20.602576476+02:00"
+    created: "2024-09-26T21:50:28.954904638+02:00"
     description: shield makes the underlying host "magically" disappear during network
       attacks.
     digest: 1636cce4ee07defd03efff3e5e4fa5fce445afba57e91ec84c9fb9f84eed0e45
@@ -1390,7 +1422,7 @@ entries:
           email: 300481@300481.de
     apiVersion: v2
     appVersion: 0.2.1
-    created: "2024-04-26T23:51:20.6011078+02:00"
+    created: "2024-09-26T21:50:28.954034896+02:00"
     description: shield makes the underlying host "magically" disappear during network
       attacks.
     digest: 041b38f69b5fb007f9d1a4c3426140a12a6e27bacba688d05768db83a70b798d
@@ -1412,7 +1444,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2024-04-26T23:51:20.600676915+02:00"
+    created: "2024-09-26T21:50:28.953459328+02:00"
     description: shield makes the underlying host "magically" disappear during network
       attacks.
     digest: 54477f04247b2a609c4ee873a4f9036de44b583b6e15161e617d6ec9c395851f
@@ -1434,7 +1466,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.5
-    created: "2024-04-26T23:51:20.600249839+02:00"
+    created: "2024-09-26T21:50:28.952781882+02:00"
     description: shield makes the underlying host "magically" disappear during network
       attacks.
     digest: bac5b2e0953dca3f24f03de6c7f242cff5c375add701cf458a7f690fa359a5bd
@@ -1454,4 +1486,4 @@ entries:
     urls:
     - https://300481.github.io/charts/shield-0.1.5.tgz
     version: 0.1.5
-generated: "2024-04-26T23:51:20.486740769+02:00"
+generated: "2024-09-26T21:50:28.810540837+02:00"
